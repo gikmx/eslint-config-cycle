@@ -2,7 +2,7 @@ const { NODE_ENV } = process.env; // eslint-disable-line no-undef
 const EsLint = module.exports = {}; // eslint-disable-line no-multi-assign
 
 // Use base configuration
-EsLint.extends = '../../eslint-config-gik/rules/index.js';
+EsLint.extends = '@gik';
 
 // This is code for a browser.
 EsLint.env = {
