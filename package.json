@@ -1,6 +1,6 @@
 {
     "name": "@gik/eslint-config-cycle",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "GIK's cycle.js approach to EcmaScript",
     "license": "MIT",
     "homepage": "https://github.com/gikmx/eslint",
@@ -30,7 +30,7 @@
         "lint": "eslint rules/*"
     },
     "dependencies": {
-        "@gik/eslint-config": "0.0.5",
+        "@gik/eslint-config": "0.0.6",
         "eslint-plugin-jsx": "^0.0.2"
     },
     "devDependencies": {
